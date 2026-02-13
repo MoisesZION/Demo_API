@@ -11,8 +11,8 @@ app.add_middleware(
     allow_origins=["*"],
     all_credentials= True, 
     allow_methods=["*"],
+    allow_headers =["*"],
 )
-
 
 @app.get("./sumar")
 def sumar_numeros(a:float, b:float):
