@@ -17,3 +17,4 @@ app.add_middleware(
 @app.get("./sumar")
 def sumar_numeros(a:float, b:float):
     return a+b
+
